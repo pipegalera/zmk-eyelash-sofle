@@ -4,7 +4,6 @@ include:
     shield: settings_reset
   - board: eyelash_sofle_right
     shield: nice_view
-
   - board: eyelash_sofle_left
     shield: settings_reset
   - board: eyelash_sofle_left
