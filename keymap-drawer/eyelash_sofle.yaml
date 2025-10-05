@@ -61,7 +61,7 @@ layers:
   - $$mdi:keyboard-space$$
   - $$mdi:play-pause$$
   - {t: '$$mdi:keyboard-return$$', h: LAYER3}
-  - RGUI
+  - A
   - $$mdi:apple-keyboard-option$$
   - GLOBE
   - $$mdi:apple-keyboard-control$$
