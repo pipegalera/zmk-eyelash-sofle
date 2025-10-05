@@ -63,7 +63,7 @@
 &kp TAB           &kp Q     &kp W     &kp E     &kp R     &kp T        &kp C_VOL_DN  &kp Y      &kp U     &kp I      &kp O      &kp P       &kp EQUAL
 &kp LEFT_CONTROL  &kp A     &kp S     &kp D     &lt 1 F   &kp G        &kp C_PREV    &kp H      &kp J     &kp K      &kp L      &kp SEMI    &kp MINUS
 &kp LEFT_SHIFT    &kp Z     &kp X     &kp C     &kp V     &kp B        &kp C_NEXT    &kp N      &kp M     &kp COMMA  &kp DOT    &kp FSLH    &kp RIGHT_SHIFT
-&kp C_MUTE        &kp LGUI  &kp CAPS  &kp LALT  &kp BSPC  &kp SPACE    &kp C_PP      &lt 2 RET  &kp RGUI  &kp RALT   &kp GLOBE  &kp RCTRL
+&kp C_MUTE        &kp LGUI  &kp CAPS  &kp LALT  &kp BSPC  &kp SPACE    &kp C_PP      &lt 2 RET  &kp A     &kp RALT   &kp GLOBE  &kp RCTRL
 
             >;
 
