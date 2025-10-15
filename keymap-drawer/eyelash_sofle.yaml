@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: eyelash_sofle}
 layers:
-  LAYER1:
+  default:
   - $$mdi:keyboard-esc$$
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
@@ -31,7 +31,7 @@ layers:
   - A
   - S
   - D
-  - {t: F, h: LAYER2}
+  - {t: F, h: symbols}
   - G
   - PREV
   - H
@@ -60,12 +60,12 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-space$$
   - PP
-  - {t: '$$mdi:keyboard-return$$', h: LAYER3}
-  - A
+  - {t: '$$mdi:keyboard-return$$', h: numbers}
+  - RGUI
   - $$mdi:apple-keyboard-option$$
   - GLOBE
   - $$mdi:apple-keyboard-control$$
-  LAYER2:
+  symbols:
   - {t: '$$mdi:transfer$$', type: trans}
   - F1
   - F2
@@ -130,7 +130,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  LAYER3:
+  numbers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
