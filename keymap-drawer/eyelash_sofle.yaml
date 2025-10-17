@@ -7,7 +7,7 @@ layers:
   - {t: '3', s: '#'}
   - {t: '4', s: $}
   - {t: '5', s: '%'}
-  - VOL UP
+  - $$mdi:volume-high$$
   - {t: '6', s: ^}
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
@@ -20,7 +20,7 @@ layers:
   - E
   - R
   - T
-  - VOL DN
+  - $$mdi:volume-low$$
   - Y
   - U
   - I
@@ -33,7 +33,7 @@ layers:
   - D
   - {t: F, h: symbols}
   - G
-  - PREV
+  - $$mdi:skip-previous$$
   - H
   - J
   - K
@@ -46,7 +46,7 @@ layers:
   - C
   - V
   - B
-  - NEXT
+  - $$mdi:skip-next$$
   - N
   - M
   - {t: ',', s: <}
@@ -59,7 +59,7 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-space$$
-  - PP
+  - $$mdi:play-pause$$
   - {t: '$$mdi:keyboard-return$$', h: numbers}
   - RGUI
   - $$mdi:apple-keyboard-option$$
