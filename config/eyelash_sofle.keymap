@@ -46,6 +46,10 @@
     keymap {
         compatible = "zmk,keymap";
 
+// ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+// ┃                  BASE                 ┃
+// ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
         default_layer {
             bindings = <
 &kp ESC           &kp N1    &kp N2    &kp N3    &kp N4    &kp N5             &kp C_VOL_UP         &kp N6     &kp N7    &kp N8     &kp N9     &kp N0    &kp DELETE
@@ -60,18 +64,26 @@
             #display-name = "LAYER1";
         };
 
+// ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+// ┃                  SYM                  ┃
+// ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
         symbols_layer {
             bindings = <
-&trans  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5          &trans          &kp F6           &kp F7                &kp F8             &kp F9                 &kp F10        &trans
-&trans  &trans  &trans  &trans  &trans  &trans          &trans          &kp AT_SIGN      &kp LEFT_BRACKET      &kp DOUBLE_QUOTES  &kp RIGHT_BRACKET      &kp AMPERSAND  &kp DOLLAR
-&trans  &trans  &trans  &trans  &trans  &trans          &trans          &kp HASH         &kp LEFT_PARENTHESIS  &kp SQT            &kp RIGHT_PARENTHESIS  &kp CARET      &kp GRAVE
-&trans  &trans  &trans  &trans  &trans  &trans          &trans          &kp EXCLAMATION  &kp LEFT_BRACE        &kp ASTERISK       &kp RIGHT_BRACE        &kp BACKSLASH  &kp PERCENT
-&trans  &trans  &trans  &trans  &trans  &trans          &trans          &trans           &trans                &trans             &trans                 &trans
+&trans  &kp F1     &kp F2     &kp F3      &kp F4  &kp F5          &trans          &kp F6           &kp F7                &kp F8             &kp F9                 &kp F10        &trans
+&trans  &trans     &kp GRAVE  &kp DOLLAR  &trans  &trans          &trans          &kp AT_SIGN      &kp LEFT_BRACKET      &kp DOUBLE_QUOTES  &kp RIGHT_BRACKET      &kp AMPERSAND  &kp DOLLAR
+&trans  &kp TILDE  &kp CARET  &kp AMPS    &trans  &trans          &trans          &kp HASH         &kp LEFT_PARENTHESIS  &kp SQT            &kp RIGHT_PARENTHESIS  &kp CARET      &kp GRAVE
+&trans  &trans     &kp PRCNT  &kp PIPE    &trans  &trans          &trans          &kp EXCLAMATION  &kp LEFT_BRACE        &kp ASTERISK       &kp RIGHT_BRACE        &kp BACKSLASH  &kp PERCENT
+&trans  &trans     &trans     &trans      &trans  &trans          &trans          &trans           &trans                &trans             &trans                 &trans
         >;
 
             sensor-bindings = <&scroll_encoder>;
             #display-name = "LAYER2";
         };
+
+// ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+// ┃                  NUM                  ┃
+// ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 
         numbers_layer {
             bindings = <
