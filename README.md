@@ -1,14 +1,10 @@
 # Eyelash Sofle
 
-## Original repo
+- This is a fork of the original author of the Eyelash Sofle (`a741725193`).
 
-This is a fork of the original author (`a741725193`) of the Eyelash Sofle.
+- Added `settings_reset` build at `build.yaml`. Why: I needed to flash the settings_reset and after flash the build file, without settings_reset my eyelash sofle did not pair.
 
-## Changes
-
-Added `settings_reset` at `build.yaml`, otherwise the keyboard do not pair after flashed.
-
-## Keymap
+## My keymap
 
 ![Sofle Keymap](keymap-drawer/eyelash_sofle.svg)
 
